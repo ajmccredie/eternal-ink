@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Smooch+Sans:wght@500&family=Zeyada&display=swap');
+
+body {
+    background-color: #b3b3b3;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the height as needed */
+  }
+  
+  .logo img {
+    max-height: 100%; /* Ensure the logo fits within the container */
+    max-width: 100%; /* Ensure the logo fits within the container */
+  }
+
+.studio {
+    display: block;
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    background-image: url("/assets/images/studio-panoramic.jpg");
+    background-size: cover;
+    background-position: center;
+  }
