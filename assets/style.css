@@ -18,23 +18,29 @@ font-family: 'Barlow', sans-serif;
 
 .header-box {
     position: relative;
-    margin-top: 0px;
+    margin-top: -10px;
 }
 
-.logo {
+.logo-box {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
-    z-index: 2;
+    margin-top: -150px;
     position: relative;
+}
+
+.logo {
+    z-index: 2;
+    position: absolute;
+    width: 300px;
     transform: rotate(180deg);
-  }
-  
-  .logo img {
+}
+
+.logo img {
     max-height: 100%;
     max-width: 100%;
-  }
+}
 
 .header-background {
     display: block;
@@ -45,7 +51,8 @@ font-family: 'Barlow', sans-serif;
     background-position: center;
     transform: rotate(180deg);
     z-index: 1;
-    position: absolute;
+    margin-top: 150px;
+    position: relative;
     overflow: visible;
 }
 
@@ -59,17 +66,17 @@ font-family: 'Barlow', sans-serif;
 }
 
 .header-background::before {
-  left: 0;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(179, 179, 179, 1) 99%);
+  left: 50%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(179, 179, 179, 1));
 }
 
 .header-background::after {
-  right: 0;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(179, 179, 179, 1) 99%);
+  right: 50%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(179, 179, 179, 1));
 }
 
 #nav-box {
-    margin-top: 300px;
+    margin-top: 50px;
 }
 
 .studio {
