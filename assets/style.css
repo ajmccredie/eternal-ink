@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Smooch+Sans:wght@500&family=Zeyada&display=swap');
 
 body {
-    background-color: rgb(179, 179, 179);
-    font-family: 'Smooch Sans', sans-serif;
+  background-color: rgb(179, 179, 179);
+  font-size: 24px;
+  margin: 20px;
 }
 
 h2 {
@@ -30,9 +31,9 @@ h5 {
 }
 
 p {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 24px;
-    margin: 20px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 24px;
+  margin: 20px;
 }
 
 .header-box {
@@ -218,6 +219,24 @@ p {
 
 .ideas {
   padding: 0 70px;
+}
+
+/** terms and advice page **/
+
+#terms ol {
+  font-size: 24px;
+  margin-left: -20px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#advice {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#advice ul {
+  font-size: 32px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 /** organising contact page contents **/
