@@ -47,7 +47,7 @@ p {
     justify-content: center;
     align-items: center;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 150px;
     width: 100%;
     position: absolute;
 }
@@ -133,11 +133,12 @@ p {
   }
 
   #timepiece-background {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
     background-image: url("/assets/images/golden-clock-background-png.png");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-attachment: fixed;
     opacity: 0.2;
     filter: grayscale(0.5);
     position: absolute;
@@ -171,6 +172,8 @@ p {
     align-items: center;
     border-top: #004D40 solid 10px;
     border-bottom: #004D40 solid 10px;
+    background-color: rgb(179, 179, 179);
+    z-index: 4;
   }
   
   .socials a {
@@ -179,6 +182,7 @@ p {
     text-decoration: none;
     color: #000;
     font-size: 60px;
+    text-shadow: 0 0 2px linen;
   }
 
 /** work gallery styling **/
@@ -223,7 +227,8 @@ p {
 }
 
 .base-leaves {
-  background-image: url(/assets/images/thin-leaves-png.png) no-repeat;
+  background-image: url(/assets/images/thin-leaves-png.png);
+  background-repeat: no-repeat;
   position: absolute;
   width: 400px;
   right: 0;
@@ -235,28 +240,80 @@ p {
 
 /** terms and advice page **/
 
+#terms {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
 #terms ol {
   font-size: 24px;
   margin-left: -20px;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+.parallax-advice {
+  background-image: url(/assets/images/thin-leaves-png.png);
+  transform: rotateY('180deg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.video-explain {
+  width: 400px;
+  height: auto;
+  border: solid 2px #000;
+  border-radius: 3px;
+  box-shadow: 1px 1px linen;
+  margin: 10px;
+  background-color: rgb(250, 240, 230, 50%);
+}
+
+iframe {
+  border: solid 2px #000;
+  border-radius: 3px;
+  box-shadow: 1px 1px linen;
+  margin: 10px;
+}
+
 #advice {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.official-advice {
+  padding: 30px;
+  border: solid 2px #000;
+  border-radius: 3px;
+  box-shadow: 1px 1px linen;
+  margin: 10px;
+  background-color: rgb(250, 240, 230, 50%);
 }
 
 #advice ul {
-  font-size: 32px;
+  font-size: 24px;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 /** organising contact page contents **/
 #contact-page {
   display: flex;
-  justify-content: left;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+}
+
+/** background image for contact us **/
+.parallax-background {
+  background-image: url(/assets/images/fat-leaves-png.png);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /** image for contact page **/
@@ -265,13 +322,22 @@ p {
   border: 1px solid #004D40;
   border-radius: 2px;
   box-sizing: border-box;
+  margin-left: 20px;
 }
 
 /** contact form styling **/
   .container {
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 675px;
+    padding: 30px;
+    border: solid 2px #000;
+    border-radius: 3px;
+    box-shadow: 1px 1px linen;
+    margin: 10px;
+    background-color: rgb(250, 240, 230, 50%);
+  }
+
+  .container h2 {
+    margin-left: -5px;
   }
 
   label {
@@ -280,7 +346,7 @@ p {
   }
 
   input[type="radio"] {
-    
+    color:#004D40;
   }
 
   input[type="text"], textarea {
@@ -292,18 +358,28 @@ p {
     resize: vertical;
   }
 
+  input[type="radio"] {
+    background-color: #004D40;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    float: left;
+  }
+
   input[type="submit"] {
     background-color: #004D40;
     color: #fff;
-    padding: 10px 20px;
+    padding: 3px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 3px;
   }
 
-  input[type="file" i]  {
+  #myFile {
     background-color: #004D40;
     color: #fff;
-    padding: 10px 20px;
     border: none;
     cursor: pointer;
   }
@@ -314,6 +390,9 @@ p {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 3px;
+    margin-left: 100px;
+    margin-top: 20px;
   }
 
   button[type="submit"]:hover {
@@ -323,7 +402,9 @@ p {
   /** address and message **/
 
   .address {
-    width: 375px;
+    width: 500px;
+    margin-left: 100px;
+    margin-bottom: 30px;
   }
 
   .come-and-see {
@@ -331,4 +412,8 @@ p {
     font-size: 32px;
     margin-left: 20px;
     margin-bottom: -20px;
+  }
+
+  #map {
+    padding-left: 150px;
   }
