@@ -4,11 +4,19 @@ body {
     background-color: rgb(179, 179, 179);
     font-family: 'Smooch Sans', sans-serif;
 }
+
+h2 {
+  color: #004D40;
+  font-family: 'Smooch Sans', sans-serif;
+  margin-left: 20px;
+  font-size: 40px;
+}
   
 h4 {
     font-family: 'Zeyada', cursive;
     color: linen;
     font-size: 70px;
+    font-weight: lighter;
     margin-top: 550px;
     text-shadow: 0 0 2px #003832;
 }
@@ -17,13 +25,6 @@ h5 {
   font-family: 'Zeyada', cursive;
   color: #004D40;
   font-size: 70px;
-}
-
-h2 {
-    color: #004D40;
-    font-family: 'Smooch Sans', sans-serif;
-    margin-left: 20px;
-    font-size: 40px;
 }
 
 p {
@@ -93,6 +94,11 @@ p {
   text-decoration: none;
   color: black;
 } 
+
+#nav-box .active {
+  font-size: 42px;
+  text-shadow: 0 0 2px linen;
+}
 
 .studio {
     display: block;
