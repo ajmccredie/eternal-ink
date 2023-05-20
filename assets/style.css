@@ -13,6 +13,12 @@ h4 {
     margin-top: -280px;
 }
 
+h5 {
+  font-family: 'Zeyada', cursive;
+  color: #004D40;
+  font-size: 70px;
+}
+
 h2 {
     color: #004D40;
     font-family: 'Smooch Sans', sans-serif;
@@ -184,8 +190,8 @@ p {
 
 .mini-dividing-leaves {
   transform: rotate(90deg);
-  margin-top: 100px;
-  margin-bottom: -500px;
+  margin-top: 200px;
+  margin-bottom: -700px;
 }
 
 /** inspiration gallery styling **/
@@ -205,10 +211,23 @@ p {
 }
 
 .ideas {
-  margin-top: 300px;
-  margin-bottom: -50px;
   padding: 0 70px;
-  transform: rotate(180deg);
+}
+
+/** organising contact page contents **/
+#contact-page {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/** image for contact page **/
+.action-shot img {
+  width: 600px;
+  border: 1px solid #004D40;
+  border-radius: 2px;
+  box-sizing: border-box;
 }
 
 /** contact form styling **/
@@ -243,4 +262,17 @@ p {
 
   button[type="submit"]:hover {
     background-color: #003832;
+  }
+
+  /** address and message **/
+
+  .address {
+    width: 400px;
+  }
+
+  .come-and-see {
+    width: 300px;
+    font-size: 32px;
+    margin-left: 20px;
+    margin-bottom: -20px;
   }
