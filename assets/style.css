@@ -230,7 +230,7 @@ p {
 
 /** image for contact page **/
 .action-shot img {
-  width: 600px;
+  width: 500px;
   border: 1px solid #004D40;
   border-radius: 2px;
   box-sizing: border-box;
@@ -238,7 +238,7 @@ p {
 
 /** contact form styling **/
   .container {
-    max-width: 400px;
+    max-width: 375px;
     margin: 0 auto;
     padding: 20px;
   }
@@ -273,7 +273,7 @@ p {
   /** address and message **/
 
   .address {
-    width: 400px;
+    width: 375px;
   }
 
   .come-and-see {
