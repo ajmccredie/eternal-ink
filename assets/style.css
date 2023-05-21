@@ -11,8 +11,8 @@ h2 {
   color: #004D40;
   font-family: 'Smooch Sans', sans-serif;
   margin-left: 20px;
-  font-size: 40px;
-  background-blend-mode: multiply multiply;
+  font-size: 48px;
+  background-blend-mode: multiply;
   z-index: 4;
 }
   
@@ -29,6 +29,7 @@ h5 {
   font-family: 'Zeyada', cursive;
   color: #004D40;
   font-size: 70px;
+  text-shadow: 0 0 2px linen;
 }
 
 p {
@@ -149,13 +150,14 @@ p {
 
   .company-info {
     padding: 30px;
-    background-blend-mode: multiply multiply;
+    background-blend-mode: multiply;
     z-index: 4;
   }
 
   .company-info h5 {
     margin-top: -10px;
     margin-bottom: -10px;
+    text-align: center;
   }
 
   #suppliers {
@@ -170,7 +172,7 @@ p {
   #suppliers img {
     height: 100px;
     padding: 20px;
-    background-blend-mode: multiply multiply;
+    background-blend-mode: multiply;
     z-index: 4;
   }
 
@@ -200,6 +202,7 @@ p {
   column-count: 4;
   column-gap: 0;
   margin: 20px;
+  margin-bottom: 60px;
   background-color: #004D40;
   border: solid #004D40 3px;
 }
@@ -215,7 +218,7 @@ p {
   line-height: 0;
   column-count: 7;
   column-gap: 0;
-  margin: 20px;
+  margin: 50px 20px 20px 20px;
   border: solid #004D40 3px;
 }
 
@@ -238,6 +241,7 @@ p {
   transform: rotate(90deg);
   background-size: contain;
   margin-top: -300px;
+  z-index: -1;
 }
 
 /** terms and advice page **/
@@ -245,22 +249,31 @@ p {
 #terms {
   border: 1px solid black;
   border-radius: 3px;
+  margin: 0 30px 40px;
 }
 
 #terms ol {
-  font-size: 24px;
-  margin-left: -20px;
+  font-size: 32px;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .parallax-advice {
   background-image: url(/assets/images/thin-leaves-png.png);
-  transform: rotateY('180deg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.advice-blurb {
+  width: 95vw;
+  height: auto;
+  border: solid 2px #000;
+  border-radius: 3px;
+  box-shadow: 1px 1px linen;
+  margin: 10px;
+  background-color: rgb(250, 240, 230, 50%);
 }
 
 .video-explain {
@@ -284,6 +297,10 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+#advice h5 {
+  width: 90vw;
 }
 
 .official-advice {
@@ -344,7 +361,7 @@ iframe {
 
   label {
     display: block;
-    margin-bottom: 10px 0;
+    margin-bottom: 10px;
   }
 
   input[type="radio"] {
@@ -409,13 +426,6 @@ iframe {
     margin-bottom: 30px;
   }
 
-  .come-and-see {
-    width: 300px;
-    font-size: 32px;
-    margin-left: 20px;
-    margin-bottom: -20px;
-  }
-
   #map {
     padding-left: 150px;
   }
@@ -435,16 +445,7 @@ iframe {
 }
 
   .header-background {
-    display: block;
-    width: 100%;
     height: 930px;
-    background-image: url("/assets/images/header-leaves.png");
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-    margin-top: -10px;
-    position: relative;
-    overflow: visible;
 }
 
 .header-box {
@@ -454,7 +455,6 @@ iframe {
 
 .logo-box {
   height: 300px;
-  margin-top: 150px;
 }
 
 .logo {
@@ -475,6 +475,37 @@ iframe {
 
 .studio {
   height: 350px; 
+}
+
+#timepiece-flex {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  position: absolute
+}
+
+#timepiece-background {
+  height: 600px;
+  width: 100%;
+  background-image: url("/assets/images/golden-clock-background-png.png");
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  filter: grayscale(0.5);
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-explain {
+  width: 800px;
+}
+
+h5 {
+  font-size: 80px;
 }
 }
 
