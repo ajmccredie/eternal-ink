@@ -4,7 +4,6 @@ body {
   background-color: rgb(179, 179, 179);
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: 24px;
-  margin: 20px;
 }
 
 h2 {
@@ -48,7 +47,7 @@ p {
     justify-content: center;
     align-items: center;
     height: 200px;
-    padding-top: 150px;
+    padding-top: 200px;
     width: 100%;
     position: absolute;
 }
@@ -72,9 +71,15 @@ p {
     background-size: cover;
     background-position: center;
     z-index: 0;
-    margin-top: -70px;
+    margin-top: -50px;
     position: relative;
     overflow: visible;
+}
+
+.slogan {
+  position: relative;
+  height: fit-content;
+  margin: 30px;
 }
 
 #nav-box {
@@ -231,6 +236,11 @@ p {
   padding: 0 70px;
 }
 
+.ideas a {
+  text-decoration: none;
+  color: black;
+}
+
 .base-leaves {
   background-image: url(/assets/images/thin-leaves-png.png);
   background-repeat: no-repeat;
@@ -249,11 +259,11 @@ p {
 #terms {
   border: 1px solid black;
   border-radius: 3px;
-  margin: 0 30px 40px;
+  margin-bottom: 30px;
 }
 
 #terms ol {
-  font-size: 32px;
+  font-size: 18px;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -290,7 +300,6 @@ iframe {
   border: solid 2px #000;
   border-radius: 3px;
   box-shadow: 1px 1px linen;
-  margin: 10px;
 }
 
 #advice {
@@ -337,8 +346,8 @@ iframe {
 
 /** image for contact page **/
 .action-shot img {
-  width: 500px;
-  border: 1px solid #004D40;
+  max-width: 500px;
+  border: 2px solid #004D40;
   border-radius: 2px;
   box-sizing: border-box;
   margin-left: 20px;
@@ -348,7 +357,7 @@ iframe {
   .container {
     max-width: 675px;
     padding: 30px;
-    border: solid 2px #000;
+    border: solid 2px #004D40;
     border-radius: 3px;
     box-shadow: 1px 1px linen;
     margin: 10px;
@@ -422,12 +431,17 @@ iframe {
 
   .address {
     width: 500px;
-    margin-left: 100px;
     margin-bottom: 30px;
+    padding-left: 30px;
+    border: solid 2px #004D40;
+    border-radius: 3px;
+    box-shadow: 1px 1px linen;
+    background-color: rgb(250, 240, 230, 50%);
   }
 
-  #map {
-    padding-left: 150px;
+  .map {
+    width: auto;
+    height: auto;
   }
 
   /* Media queries */
@@ -477,29 +491,6 @@ iframe {
   height: 350px; 
 }
 
-#timepiece-flex {
-  width: 100%;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  position: absolute
-}
-
-#timepiece-background {
-  height: 600px;
-  width: 100%;
-  background-image: url("/assets/images/golden-clock-background-png.png");
-  background-size: contain;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  opacity: 0.2;
-  filter: grayscale(0.5);
-  position: absolute;
-  overflow: hidden;
-  z-index: -1;
-}
-
 .video-explain {
   width: 800px;
 }
@@ -528,21 +519,19 @@ h5 {
   }
 
   .header-box {
-    margin-top: -150px;
+    margin-top: -120px;
 }
 
 .logo-box {
-    height: 110px;
-    padding-top: 230px;
+    padding-top: 210px;
 }
 
 .logo {
     width: 30vw;
 }
 
-.logo img {
-    max-height: 100%;
-    max-width: 100%;
+.slogan {
+  margin-top: -30px;
 }
 
 .header-background {
@@ -554,13 +543,72 @@ h5 {
   font-size: 34px;
 }
 
+.base-leaves {
+  width: 200px;
+  height: 200px;
+  margin-top: -180px;
+  right: 10px;
+}
 
+h5 {
+  color: black;
+}
 
 }
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
+  p {
+    font-size: 24px;
+  }
 
+  h2 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 60px;
+  }
+
+  h5 {
+    font-size: 50px;
+  }
+
+  .header-box {
+    margin-top: -160px;
+}
+
+.logo-box {
+    padding-top: 210px;
+}
+
+.logo {
+    width: 40vw;
+}
+
+#nav-box ul {
+  font-size: 34px;
+}
+
+.base-leaves {
+  width: 200px;
+  height: 200px;
+  margin-top: -180px;
+  right: 10px;
+}
+
+h5 {
+  color: black;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.action-shot img {
+  max-width: 400px;
+  margin: 10px;
 }
 
 /* For small screen sizes below 800px width */
@@ -588,6 +636,96 @@ h5 {
   p {
     font-size: 20px;
     margin: 20px;
+  }  
+
+  #work-gallery {
+    column-count: 3;
+  }
+
+  #inspiration-gallery {
+    column-count: 5;
+  }
+}
+
+/* For small screen sizes below 700px width */
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 14px;
+    margin: 3px;
+  }
+    
+  h4 {
+      font-weight: lighter;
+      margin-top: 100px;
+      font-size: 40px;
+      text-align: center;
   }
   
+  h5 {
+    font-size: 50px;
+  }
+  
+  p {
+    font-size: 20px;
+    margin: 20px;
+  }  
+
+  .logo {
+    height: 30px;
+    padding: 5px;
+  }
+
+  iframe {
+    max-width: 97vw;
+    height: 100%;
+  }
+
+  .header-box {
+    margin-top: -70px;
+}
+
+.logo {
+    width: 60vw;
+    height: auto;
+}
+
+.header-background {
+    height: 490px;
+    margin-top: -120px;
+}
+
+.slogan {
+  position: relative;
+  height: fit-content;
+  margin: 30px;
+  margin-top: 350px;
+}
+
+#nav-box {
+  margin-left: -35px;
+  margin-right: 0;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#nav-box ul {
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.official-advice {
+  padding: 10px;
+  padding-left: 0;
+}
+
+#advice ul {
+  font-size: 20px;
+}
+
+.socials a {
+  font-size: 25px;
+  margin: 15px;
+}
 }
