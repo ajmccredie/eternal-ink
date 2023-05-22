@@ -164,7 +164,6 @@ p {
     padding: 30px;
     background-blend-mode: multiply;
     z-index: 4;
-    display: inline-flex;
   }
 
   .company-info h5 {
