@@ -153,10 +153,18 @@ p {
     z-index: -1;
   }
 
+  .company-background {
+    background: url(/assets/images/fat-leaves-side.png) no-repeat, center;
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+  }
+
   .company-info {
     padding: 30px;
     background-blend-mode: multiply;
     z-index: 4;
+    display: inline-flex;
   }
 
   .company-info h5 {
@@ -599,6 +607,19 @@ h5 {
 
 h5 {
   color: black;
+}
+
+.studio {
+  overflow-x: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera (from W3)*/
+.no-show-scroll::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox (from W3)*/
+.no-show-scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 label {
