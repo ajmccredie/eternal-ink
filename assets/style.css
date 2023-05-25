@@ -115,7 +115,7 @@ p {
     display: block;
     width: 100%;
     height: 300px; 
-    background-image: url("/assets/images/studio-panoramic.jpg");
+    background-image: url(images/studio-panoramic.jpg);
     background-size: cover;
     background-position: center;
     border-top: 40px solid #004D40;
@@ -142,7 +142,7 @@ p {
   #timepiece-background {
     height: 100%;
     width: 100%;
-    background-image: url("/assets/images/golden-clock-background-png.png");
+    background-image: url(images/golden-clock-background-png.png);
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
@@ -161,7 +161,7 @@ p {
   }
 
   .company-background {
-    background: url(/assets/images/fat-leaves-side.png) no-repeat, center;
+    background: url(images/fat-leaves-side.png) no-repeat, center;
     height: 200px;
     width: 350px;
     background-size: cover;
@@ -256,7 +256,7 @@ p {
 }
 
 .base-leaves {
-  background-image: url(/assets/images/thin-leaves-png.png);
+  background-image: url(images/thin-leaves-png.png);
   background-repeat: no-repeat;
   position: absolute;
   width: 400px;
