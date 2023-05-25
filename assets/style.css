@@ -283,7 +283,7 @@ p {
 }
 
 .parallax-advice {
-  background-image: url(/assets/images/thin-leaves.png);
+  background-image: url(images/thin-leaves.png);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -352,7 +352,7 @@ iframe {
 
 /** background image for contact us **/
 .parallax-background {
-  background-image: url(/assets/images/fat-leaves.png);
+  background-image: url(images/fat-leaves.png);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
