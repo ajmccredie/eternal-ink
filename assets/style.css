@@ -743,4 +743,8 @@ label {
   font-size: 25px;
   margin: 15px;
 }
+
+.action-shot {
+  width: 97vw;
+}
 }
