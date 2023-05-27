@@ -171,12 +171,13 @@ p {
     padding: 30px;
     background-blend-mode: multiply;
     z-index: 4;
+    text-align: center;
   }
 
   .company-info h5 {
     margin-top: -10px;
     margin-bottom: -10px;
-    text-align: center;
+
   }
 
   #suppliers {
