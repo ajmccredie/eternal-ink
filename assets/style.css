@@ -487,6 +487,16 @@ button[type="submit"]:hover {
   text-align: center;
 }
 
+#thank-you h5 {
+  margin-top: -50px;
+  font-size: 30px;
+}
+
+#thank-you p {
+  margin-top: -50px;
+  font-size: 18px;
+}
+
 /* Media queries */
 
 /* For large screens from 1800px wide and up */
