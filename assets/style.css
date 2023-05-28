@@ -863,12 +863,12 @@ button[type="submit"]:hover {
   }
   
   #thank-you h5 {
-    margin-top: -30px;
+    margin-top: -10px;
     font-size: 20px;
   }
   
   #thank-you p {
-    margin-top: -30px;
+    margin-top: -10px;
     font-size: 18px;
   }
 }
