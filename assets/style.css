@@ -257,16 +257,15 @@ p {
 }
 
 .base-leaves {
-  background-image: url(images/thin-leaves-png.png);
+  background-image: url(images/thin-leaves.png);
   background-repeat: no-repeat;
   position: absolute;
-  width: 400px;
-  right: 0;
-  height: 400px;
-  transform: rotate(90deg);
+  width: 300px;
+  right: 10px;
+  height: 300px;
+  transform: rotateY(180deg);
   background-size: contain;
-  margin-top: -300px;
-  opacity: 80%;
+  margin-top: -400px;
   z-index: -1;
 }
 
