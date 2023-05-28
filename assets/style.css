@@ -479,7 +479,10 @@ button[type="submit"]:hover {
   width: 80vw;
   display: flex;
   justify-content: center;
-  margin-top: -200px;
+  flex-direction: column;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: -300px;
 }
 
 /* Media queries */
