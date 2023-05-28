@@ -724,6 +724,14 @@ label {
   justify-content: space-between;
 }
 
+#work-gallery {
+  column-count: 2;
+}
+
+#inspiration-gallery {
+  column-count: 4;
+}
+
 .official-advice {
   padding: 10px;
   padding-left: 0;
@@ -747,4 +755,10 @@ label {
 .action-shot {
   width: 97vw;
 }
+}
+
+/* For small screen sizes below 700px width */
+@media screen and (max-width: 560px) {
+
+  
 }
