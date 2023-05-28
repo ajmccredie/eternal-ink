@@ -415,6 +415,7 @@ textarea {
 
 input[type="radio"] {
   padding: 10px 20px;
+  margin-bottom: 8px;
   margin-right: 20px;
   border: none;
   cursor: pointer;
@@ -671,6 +672,10 @@ button[type="submit"]:hover {
   label {
     margin-top: 10px;
     font-size: 16px;
+  }
+
+  input[type="radio"] {
+    margin-bottom: 2px;
   }
 
   iframe {
