@@ -843,10 +843,6 @@ button[type="submit"]:hover {
     width: 97vw;
   }
 
-  .map {
-    margin-left: 0;
-  }
-
   .map iframe {
     width: 300px;
     margin-left: 0;
@@ -859,7 +855,7 @@ button[type="submit"]:hover {
   }
 
   #thank-you {
-    margin-top: 0;
+    margin-top: -50px;
   }
   
   #thank-you h5 {
@@ -870,6 +866,13 @@ button[type="submit"]:hover {
   #thank-you p {
     margin-top: -10px;
     font-size: 18px;
+  }
+}
+
+/* For small screen sizes below 600px width */
+@media screen and (max-width: 600px) {
+  .map {
+    margin-left: 0;
   }
 }
 
