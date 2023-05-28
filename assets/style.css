@@ -618,8 +618,12 @@ iframe {
   max-width: 97vw;
 }
 
-.action-shot img {
+.container {
   max-width: 97vw;
+}
+
+.action-shot img {
+  max-width: 90vw;
   margin-left: 0;
   margin-right: 0;
 }
