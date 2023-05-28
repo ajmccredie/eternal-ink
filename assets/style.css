@@ -636,6 +636,14 @@ h5 {
   color: black;
 }
 
+#work-gallery {
+  column-count: 3;
+}
+
+#inspiration-gallery {
+  column-count: 5;
+}
+
 label {
   margin-top: 10px;
   font-size: 16px;
@@ -656,7 +664,17 @@ iframe {
 }
 
 .find-us {
-  flex-direction: row;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.map {
+  width: 70vw;
+  margin-left: 15vw;
 }
 }
 
@@ -686,14 +704,6 @@ iframe {
     font-size: 20px;
     margin: 20px;
   }  
-
-  #work-gallery {
-    column-count: 3;
-  }
-
-  #inspiration-gallery {
-    column-count: 5;
-  }
 
   label {
     font-weight: bold;
@@ -797,7 +807,7 @@ iframe {
   box-shadow: none;
   margin-left: 0;
   margin-right: 0;
-  padding: 2px;
+  padding: 7px;
 }
 
 .action-shot {
@@ -805,19 +815,29 @@ iframe {
 }
 
 .map {
-  width: 97vw;
+  margin-left: 0;
+}
+
+.map iframe {
+  width: 300px;
   margin-left: 0;
   margin-right: 0;
 }
 
 .address {
-  max-width: 97vw;
+  max-width: 90vw;
   box-shadow: none;
 }
 }
 
-/* For small screen sizes below 700px width */
-@media screen and (max-width: 560px) {
-
-
+/* For small screen sizes below 400px width */
+@media screen and (max-width: 400px) {
+  h4 {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  
+  .map iframe {
+    width: 270px;
+  }
 }
