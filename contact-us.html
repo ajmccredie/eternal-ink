@@ -39,14 +39,22 @@
                 <input type="text" id="email" name="email" placeholder="Your email" required>
                 <br>
                 <br>
-                <input id="first-radio" name="contact-type" value="first" type="radio">
-                <label for="first-radio">I'm looking to get my first tattoo</label><br>
-                <input id="next-radio" name="contact-type" value="next" type="radio">
-                <label for="next-radio">I'm looking to book my next tattoo</label><br>
-                <input id="cover-radio" name="contact-type" value="cover" type="radio">
-                <label for="cover-radio">I'm looking to discuss a cover-up</label><br>
-                <input id="chat-radio" name="contact-type" value="chat" type="radio">
-                <label for="chat-radio">I'm just looking to have a chat with your company</label>
+                <div class="radio-container">
+                    <input id="first-radio" name="contact-type" value="first" type="radio">
+                    <label for="first-radio">I'm looking to get my first tattoo</label>
+                </div>
+                <div class="radio-container">
+                    <input id="next-radio" name="contact-type" value="next" type="radio">
+                    <label for="next-radio">I'm looking to book my next tattoo</label><br>
+                </div>
+                <div class="radio-container">
+                    <input id="cover-radio" name="contact-type" value="cover" type="radio">
+                    <label for="cover-radio">I'm looking to discuss a cover-up</label><br>
+                </div>
+                <div class="radio-container">
+                    <input id="chat-radio" name="contact-type" value="chat" type="radio">
+                    <label for="chat-radio">I'm just looking to have a chat with your company</label>
+                </div>
                 <br>
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" placeholder="Your message"></textarea>

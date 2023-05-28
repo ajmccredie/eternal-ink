@@ -390,8 +390,10 @@ iframe {
     margin-bottom: 10px;
   }
 
-  input[type="radio"] {
-    color:#004D40;
+  .radio-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
   }
 
   input[type="text"], textarea {
@@ -404,8 +406,6 @@ iframe {
   }
 
   input[type="radio"] {
-    background-color: #004D40;
-    color: #fff;
     padding: 10px 20px;
     margin-right: 20px;
     border: none;
@@ -445,7 +445,6 @@ iframe {
   }
 
   /** address and message **/
-
   .address {
     width: 500px;
     margin-bottom: 30px;
@@ -615,9 +614,14 @@ label {
   font-size: 16px;
 }
 
+iframe {
+  max-width: 97vw;
+}
+
 .action-shot img {
-  max-width: 400px;
-  margin: 10px;
+  max-width: 97vw;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* For small screen sizes below 800px width */
@@ -752,13 +756,29 @@ label {
   margin: 15px;
 }
 
+.container {
+  max-width: 97vw;
+  box-shadow: none;
+}
+
 .action-shot {
   width: 97vw;
+}
+
+.map {
+  width: 97vw;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.address {
+  max-width: 97vw;
+  box-shadow: none;
 }
 }
 
 /* For small screen sizes below 700px width */
 @media screen and (max-width: 560px) {
 
-  
+
 }
