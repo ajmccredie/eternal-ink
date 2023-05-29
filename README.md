@@ -49,23 +49,36 @@ Accessibility is considered, adhering to accessibility guidelines for suitable c
 
 This final layer and the stylistic choices, including the responsiveness to screen size changes are detailed below, with relevant screen shots. 
 _The Homepage_
+The company logo is prominent, alongside the slogan "The enduring power of art". Immediately under the slogan is the navigation bar.
 ![Main start up view of homepage on average PC screen](https://github.com/ajmccredie/eternal-ink/assets/127118760/3e41809f-f473-451d-90a8-1199954f97d3)
+Under the short blurb about the company and ethos, there is a hero image of the studio and an invite to the site user.
 ![Studio hero image with invite](https://github.com/ajmccredie/eternal-ink/assets/127118760/413f4aec-262e-4a9e-ae3b-dee285c6d1ba)
-![Suppliers and socials at the bottom of the page](https://github.com/ajmccredie/eternal-ink/assets/127118760/dbde5a83-f9f1-40eb-9bc6-41137634728e)
+<br>
+Below the image of the studio are some logos of high quality tattoo supplies, and then social media links at the bottom of the screen. An image of a clock is used here to reinforce style ideas of time and eternity.
 
 _The Gallery_
+The top of the gallery page features an array of eye-catching tattoos to show off the studio's work.
 ![Main four column view of tattoo gallery](https://github.com/ajmccredie/eternal-ink/assets/127118760/6c7a5fa8-3747-4950-9d46-d2de86e9243f)
-![Further view of the four column gallery](https://github.com/ajmccredie/eternal-ink/assets/127118760/8d325559-f649-4443-b099-bdc7e3c4a5cf)
+The lower half of the page features a large number of small 'sketches' to demonstrate further designs the studio wishes to present.
 ![Seven column view of sketch gallery](https://github.com/ajmccredie/eternal-ink/assets/127118760/6ca539bf-c0b5-47de-ae3d-6e68fce84a4c)
-![Further view of seven column sketch gallery](https://github.com/ajmccredie/eternal-ink/assets/127118760/770afea1-86a6-42ae-a659-ec3b6c918c3a)
+Under the art work is a call to action link (as well as the social media links which provide the consistent footer through the site)
 ![Base of gallery with call to action link](https://github.com/ajmccredie/eternal-ink/assets/127118760/3ab12234-8108-4237-ba78-4a92b19bc89e)
 
 _Advice and Terms Page_
+There is a lot of written information on this page, so the contrast and style are important so as to maintain interest for the user without causing a distraction.
 ![Top view of usual page layout](https://github.com/ajmccredie/eternal-ink/assets/127118760/294ae7f2-2e61-46e1-b3cd-aa7a294e590e)
-![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/7a1f3c48-b828-4abd-94a0-8c5bdf70ac29)
-![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/13013b2f-b568-4dbb-81c5-fd5bda1112e7)
+A curated selection of embedded YouTube videos are presented for the user to interact with, accompanied by very short video synopses on the side (or above depending on the screen width). <br>
+The advice on aftercare is also in text on the page so that users do not have to watch the video if they do not want to (or it is inconvenient to do so).
+![Links to suggested videos](https://github.com/ajmccredie/eternal-ink/assets/127118760/7a1f3c48-b828-4abd-94a0-8c5bdf70ac29)
+The terms and conditions switches to an opaque frame to communicate this section is more serious and should be read more carefully.
+![Terms and conditions](https://github.com/ajmccredie/eternal-ink/assets/127118760/13013b2f-b568-4dbb-81c5-fd5bda1112e7)
 
 _Contact Us_
+The contact form is brief and the required inputs are validated. The radio buttons and image uploads are not requirements for validation, because these present additional optional information. 
+![Contact form, address and map](https://github.com/ajmccredie/eternal-ink/assets/127118760/c133a1d4-f512-4aab-981c-f43104f83da7)Submission of the form generates a "Thank you" page which acknowledges the receipt of the form and then redirects to the homepage.
+![Thank you page](https://github.com/ajmccredie/eternal-ink/assets/127118760/1c868254-e531-4a5c-85dc-95e44b1be2d8)
+The action shot of the artist on this page is to reinforce why the user would want to contact the company, and what they will likely find if they did drop by.
+![Action shot of an artist tattooing underneath the contact form and details](https://github.com/ajmccredie/eternal-ink/assets/127118760/a13a00a1-d5ec-414e-82a5-ebba8a452bbd)
 
 
 # Technologies
@@ -77,7 +90,7 @@ _Contact Us_
 ## Deployment to GitHub Pages
 Deploy the Eternal Ink website to GitHub pages, following these steps:
 -	Create a new repository on GitHub for your project
--	Clone the repository to your local machine either by following the on-screen link or by using the command: “git clone https://github.com/ajmccredie/eternal-ink.git” 
+-	Clone the repository to your local machine either by following the on-screen link and drop-down menu.
 -	Copy the Eternal Ink files to the cloned repository directory.
 -	Commit and push changes to the repository.
 -	Enable GitHub Pages for your repository by navigating to your repository, clicking on “settings”, scrolling down to “GitHub Pages”, selecting the branch you want to you for the Pages from “source”, clicking “Save”, and then waiting. This may take a few minutes.
@@ -100,8 +113,13 @@ Contributions to the Eternal Ink project are welcome! If you have any suggestion
 - The background leaves behind the logo are from: pikisuperstar on Freepik (https://www.freepik.com/free-vector/tropical-background-with-white-space_7604008.htm)
 - The leaves used as body backgrounds are also from pngegg.com.
 - Image compression from tinypng.com.
+- Finishing touch changes and suggestions from my Mentor.
+- Font Awesome for the social media icons.
+- Structure of radio buttons and general form adapted from the CI exercise "Coders Coffeehouse"
 
 # Testing
+The site has been launched across a variety of browsers without issue (Chrome, Edge, Firefox and Safari). <br>
+<br>
 All HTML and CSS passed through online verification services without issues
 ![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/efe061d9-fd4d-4c83-9faa-465b0abe5a74)
 ![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/87aa8a90-9af5-4976-b3f0-2431af469d32)
@@ -110,7 +128,12 @@ All HTML and CSS passed through online verification services without issues
 ![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/e0986b43-2c22-4f41-a20b-4832eb2d90b8)
 ![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/0a98e35f-fa82-4b86-b492-601c12fd6da7)
 
+<br>
 Web developer tools used in Chrome including those within ‘inspect’ to test responsiveness for a variety of screen sizes and Lighthouse to check overall page performances.<br>
-Many issues highlighted in Lighthouse were addressed, including compressing large images (using tinypng.com) to load pages faster and researching reducing some unnecessary JavaScript from the iframes. Some of the suggested page improvements were not possible within the scope of this project.
+
+## Bugs and issues
+Some issues highlighted in Lighthouse were addressed, including compressing large images (using tinypng.com) to load pages faster and researching reducing some unnecessary JavaScript from the iframes. Some of the suggested page improvements were not possible within the scope of this project.
 ![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/7978bd3d-cc08-4b8e-9759-da84aee33c2e)
 
+<br>
+Another bug fix was required when the site was first deployed through GitHub pages and the CSS link was not working. I discovered this was due to using absolute file paths (leading the file path names with "/"). I removed these from all of the file paths affected and the issue resolved.
