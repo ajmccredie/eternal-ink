@@ -876,6 +876,10 @@ button[type="submit"]:hover {
     margin-left: 0;
     margin-right: 20px;
   }
+
+  .address {
+    width: 80vw;
+  }
 }
 
 /* For small screen sizes below 400px width */
@@ -883,6 +887,10 @@ button[type="submit"]:hover {
   h4 {
     margin-top: 30px;
     font-size: 30px;
+  }
+
+  .logo {
+    width: 70vw;
   }
 
   .company-background {
