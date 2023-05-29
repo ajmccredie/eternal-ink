@@ -131,6 +131,7 @@ Contributions to the Eternal Ink project are welcome! If you have any suggestion
 - Finishing touch changes and suggestions from my Mentor.
 - Font Awesome for the social media icons.
 - Structure of radio buttons and general form adapted from the CI exercise "Coders Coffeehouse"
+- w3 and StackOverflow for resolving minor issues and for reading around how to use and include a wide variety of features.
 
 # Testing
 The site has been launched across a variety of browsers without issue (Chrome, Edge, Firefox and Safari). <br>
