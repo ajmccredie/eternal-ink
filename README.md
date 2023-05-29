@@ -55,6 +55,10 @@ Under the short blurb about the company and ethos, there is a hero image of the 
 ![Studio hero image with invite](https://github.com/ajmccredie/eternal-ink/assets/127118760/413f4aec-262e-4a9e-ae3b-dee285c6d1ba)
 <br>
 Below the image of the studio are some logos of high quality tattoo supplies, and then social media links at the bottom of the screen. An image of a clock is used here to reinforce style ideas of time and eternity.
+<br>
+The homepage viewed across different device widths and positions (from "Am I Responsive") is show below:
+![Homepage from Am I Responsive](https://github.com/ajmccredie/eternal-ink/assets/127118760/c058f7da-1745-4e4c-8670-ff681eb4fff3)
+
 
 _The Gallery_
 The top of the gallery page features an array of eye-catching tattoos to show off the studio's work.
@@ -63,6 +67,10 @@ The lower half of the page features a large number of small 'sketches' to demons
 ![Seven column view of sketch gallery](https://github.com/ajmccredie/eternal-ink/assets/127118760/6ca539bf-c0b5-47de-ae3d-6e68fce84a4c)
 Under the art work is a call to action link (as well as the social media links which provide the consistent footer through the site)
 ![Base of gallery with call to action link](https://github.com/ajmccredie/eternal-ink/assets/127118760/3ab12234-8108-4237-ba78-4a92b19bc89e)
+<br>
+The gallery viewed across different device widths and positions (from "Am I Responsive") is show below:
+![Gallery from Am I Responsive](https://github.com/ajmccredie/eternal-ink/assets/127118760/41b152fa-4045-49cc-9d45-21f6addbf607)
+The number of columns for the images is changed to best suit screen sizes.
 
 _Advice and Terms Page_
 There is a lot of written information on this page, so the contrast and style are important so as to maintain interest for the user without causing a distraction.
@@ -72,6 +80,10 @@ The advice on aftercare is also in text on the page so that users do not have to
 ![Links to suggested videos](https://github.com/ajmccredie/eternal-ink/assets/127118760/7a1f3c48-b828-4abd-94a0-8c5bdf70ac29)
 The terms and conditions switches to an opaque frame to communicate this section is more serious and should be read more carefully.
 ![Terms and conditions](https://github.com/ajmccredie/eternal-ink/assets/127118760/13013b2f-b568-4dbb-81c5-fd5bda1112e7)
+<br>
+The advice and terms page viewed across different device widths and positions (from "Am I Responsive") is show below, demonstrating the rearrangement of the videos and information to suit the screen sizes:
+![Advice and Terms from Am I Responsive](https://github.com/ajmccredie/eternal-ink/assets/127118760/9d22160c-57de-4370-aa62-72e1f1730232)
+
 
 _Contact Us_
 The contact form is brief and the required inputs are validated. The radio buttons and image uploads are not requirements for validation, because these present additional optional information. 
@@ -79,6 +91,9 @@ The contact form is brief and the required inputs are validated. The radio butto
 ![Thank you page](https://github.com/ajmccredie/eternal-ink/assets/127118760/1c868254-e531-4a5c-85dc-95e44b1be2d8)
 The action shot of the artist on this page is to reinforce why the user would want to contact the company, and what they will likely find if they did drop by.
 ![Action shot of an artist tattooing underneath the contact form and details](https://github.com/ajmccredie/eternal-ink/assets/127118760/a13a00a1-d5ec-414e-82a5-ebba8a452bbd)
+<br>
+The contact us page viewed across different device widths and positions (from "Am I Responsive") is show below, demonstrating the rearrangement of the items to suit the screen size and best present the information and form:
+![Contact us from Am I Responsive](https://github.com/ajmccredie/eternal-ink/assets/127118760/1812cc03-9fad-4e8c-8fb2-28c013a8a21d)
 
 
 # Technologies
@@ -121,19 +136,33 @@ Contributions to the Eternal Ink project are welcome! If you have any suggestion
 The site has been launched across a variety of browsers without issue (Chrome, Edge, Firefox and Safari). <br>
 <br>
 All HTML and CSS passed through online verification services without issues
-![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/efe061d9-fd4d-4c83-9faa-465b0abe5a74)
-![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/87aa8a90-9af5-4976-b3f0-2431af469d32)
-![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/50f2a532-28d6-4c74-94c0-7a35bda7cc25)
-![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/47aee34a-a631-4842-be0a-313db0403c7f)
-![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/e0986b43-2c22-4f41-a20b-4832eb2d90b8)
-![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/0a98e35f-fa82-4b86-b492-601c12fd6da7)
+![W3 HTML verifier homepage](https://github.com/ajmccredie/eternal-ink/assets/127118760/efe061d9-fd4d-4c83-9faa-465b0abe5a74)
+![W3 HTML verifier gallery](https://github.com/ajmccredie/eternal-ink/assets/127118760/87aa8a90-9af5-4976-b3f0-2431af469d32)
+![W3 HTML verifier advice and terms](https://github.com/ajmccredie/eternal-ink/assets/127118760/50f2a532-28d6-4c74-94c0-7a35bda7cc25)
+![W3 HTML verifier contact](https://github.com/ajmccredie/eternal-ink/assets/127118760/47aee34a-a631-4842-be0a-313db0403c7f)
+![W3 HTML verifier thank you page](https://github.com/ajmccredie/eternal-ink/assets/127118760/e0986b43-2c22-4f41-a20b-4832eb2d90b8)
+![W3 Jigsaw CSS verfier](https://github.com/ajmccredie/eternal-ink/assets/127118760/0a98e35f-fa82-4b86-b492-601c12fd6da7)
 
 <br>
-Web developer tools used in Chrome including those within ‘inspect’ to test responsiveness for a variety of screen sizes and Lighthouse to check overall page performances.<br>
+Web developer tools used in Chrome including those within ‘inspect’ to test responsiveness for a variety of screen sizes and Lighthouse to check overall page performances. "Am I Responsive" used to verify the look and feel of the site over a quick range of devices (following extensive dev tools checking and updating as required).<br>
 
 ## Bugs and issues
-Some issues highlighted in Lighthouse were addressed, including compressing large images (using tinypng.com) to load pages faster and researching reducing some unnecessary JavaScript from the iframes. Some of the suggested page improvements were not possible within the scope of this project.
-![image](https://github.com/ajmccredie/eternal-ink/assets/127118760/7978bd3d-cc08-4b8e-9759-da84aee33c2e)
+Some issues highlighted in Lighthouse were addressed, including compressing large images (using tinypng.com) to load pages faster and researching reducing some unnecessary JavaScript from the iframes. Some of the suggested page improvements were not possible within the scope of this project.<br>
+Lighthouse performance summary of homepage:
+![Lighthouse performance summary of homepage](https://github.com/ajmccredie/eternal-ink/assets/127118760/7978bd3d-cc08-4b8e-9759-da84aee33c2e)
 
 <br>
 Another bug fix was required when the site was first deployed through GitHub pages and the CSS link was not working. I discovered this was due to using absolute file paths (leading the file path names with "/"). I removed these from all of the file paths affected and the issue resolved.
+
+### Unresolved bugs
+The Lighthouse checker highlighted some minor accessibility issues of non-sequentially ordered heading elements. This was left unresolved due to all the links to the style-sheets, but will be addressed in future projects.<br>
+Gallery performace:
+![Lighthouse performance summary of gallery](https://github.com/ajmccredie/eternal-ink/assets/127118760/c648e0e7-5cb0-4ae0-8ff2-52c84a07ad07)
+Advice and terms performance:
+![Lighthouse performance summary of advice and terms](https://github.com/ajmccredie/eternal-ink/assets/127118760/002dfd27-ab41-4e1f-92b6-0a7af705a4fa)
+Contact page performance:
+![Lighthouse performance summary of contact page](https://github.com/ajmccredie/eternal-ink/assets/127118760/eeb589c8-382d-4b20-a771-aa8752c26e70)
+
+
+As shown in the screen shots, the performance of the pages is still low. Image compression somewhat improved each of these, but the worst are the gallery and the advice and terms. <br>
+The embedded YouTube videos also brought security issues with them (damaging the best practices score), which would need to be addressed were this site to be deployed for a real company. I conducted some basic research into how to resolve this, but would more likely opt for JavaScript operated thumbnails (beyond the scope of this project) to remove the need to embed the iframe. 
