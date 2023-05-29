@@ -880,6 +880,11 @@ button[type="submit"]:hover {
   .address {
     width: 80vw;
   }
+
+  .action-shot {
+    width: 85vw;
+    margin-left: 5vw;
+  }
 }
 
 /* For small screen sizes below 400px width */
@@ -911,10 +916,5 @@ button[type="submit"]:hover {
   .map {
     width: 70vw;
     margin-right: 40px;
-  }
-
-  .action-shot {
-    width: 90vw;
-    margin-left: 5vw;
   }
 }
