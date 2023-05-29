@@ -763,18 +763,14 @@ button[type="submit"]:hover {
   }
 
   .logo {
-    height: 30px;
+    width: 50vw;
+    height: auto;
     padding: 5px;
   }
 
   iframe {
     max-width: 97vw;
     height: 315px;
-  }
-
-  .logo {
-    width: 50vw;
-    height: auto;
   }
 
   .header-background {
@@ -801,6 +797,11 @@ button[type="submit"]:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  #suppliers img {
+    height: 90px;
+    padding: 15px;
   }
 
   #work-gallery {
@@ -873,6 +874,7 @@ button[type="submit"]:hover {
 @media screen and (max-width: 600px) {
   .map {
     margin-left: 0;
+    margin-right: 20px;
   }
 }
 
@@ -883,7 +885,23 @@ button[type="submit"]:hover {
     font-size: 30px;
   }
 
+  .company-background {
+    height: 120px;
+    width: 97vw;
+    background-size: contain;
+  }
+
+  #suppliers img {
+    height: 70px;
+    padding: 10px;
+  }
+
   .map iframe {
     width: 270px;
+  }
+
+  .action-shot {
+    width: 90vw;
+    margin-left: 5vw;
   }
 }
