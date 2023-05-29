@@ -877,6 +877,10 @@ button[type="submit"]:hover {
     margin-right: 20px;
   }
 
+  .container {
+    max-width: 95vw;
+  }
+
   .address {
     width: 80vw;
   }
