@@ -120,6 +120,7 @@ You now have a copy of the Eternal Ink project to modify, customise and use as y
 ## Contribution
 Contributions to the Eternal Ink project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request in the GitHub repository.
 # Credits
+### Assets
 - “Sketches” provided through searching “tattoos” in pngegg.com.
 - Tattoo images provided from a huge selection of talented artists gathered on tattoodo.com.
 - Logo provided as a quick adaptation of existing images by Nathan Siguake-Durand.
@@ -128,10 +129,12 @@ Contributions to the Eternal Ink project are welcome! If you have any suggestion
 - The background leaves behind the logo are from: pikisuperstar on Freepik (https://www.freepik.com/free-vector/tropical-background-with-white-space_7604008.htm)
 - The leaves used as body backgrounds are also from pngegg.com.
 - Image compression from tinypng.com.
+### Code
 - Finishing touch changes and suggestions from my Mentor.
 - Font Awesome for the social media icons.
 - Structure of radio buttons and general form adapted from the CI exercise "Coders Coffeehouse"
 - w3 and StackOverflow for resolving minor issues and for reading around how to use and include a wide variety of features.
+- Percipio video on HTML form validation.
 
 # Testing
 The site has been launched across a variety of browsers without issue (Chrome, Edge, Firefox and Safari). <br>
@@ -154,6 +157,8 @@ Lighthouse performance summary of homepage:
 
 <br>
 Another bug fix was required when the site was first deployed through GitHub pages and the CSS link was not working. I discovered this was due to using absolute file paths (leading the file path names with "/"). I removed these from all of the file paths affected and the issue resolved.
+<br>
+One final bug was forgetting to test the type of input for the email field of my form, and almost missing (because I had been putting email addresses in to test it) that it was a 'text' input. It has been changed now to 'email' and the style sheet updated accordingly.
 
 ### Unresolved bugs
 The Lighthouse checker highlighted some minor accessibility issues of non-sequentially ordered heading elements. This was left unresolved due to all the links to the style-sheets, but will be addressed in future projects.<br>
