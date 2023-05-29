@@ -412,6 +412,16 @@ textarea {
   resize: vertical;
 }
 
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #004D40;
+  box-sizing: border-box;
+  border-radius: 2px;
+  resize: vertical;
+}
+
 input[type="radio"] {
   padding: 10px 20px;
   margin-bottom: 8px;
