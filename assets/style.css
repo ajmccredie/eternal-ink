@@ -177,7 +177,6 @@ p {
 .company-info h5 {
   margin-top: -10px;
   margin-bottom: -10px;
-
 }
 
 #suppliers {
@@ -194,6 +193,7 @@ p {
   padding: 20px;
   background-blend-mode: multiply;
   z-index: 4;
+  filter: grayscale(1);
 }
 
 .socials {
@@ -557,8 +557,8 @@ button[type="submit"]:hover {
   }
 }
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* For larger to medium screens size from 1280px wide and down */
+@media screen and (max-width: 1280px) {
   p {
     font-size: 24px;
   }
@@ -615,6 +615,7 @@ button[type="submit"]:hover {
 
   .find-us {
     flex-direction: row;
+    width: 97vw;
   }
 
 }
