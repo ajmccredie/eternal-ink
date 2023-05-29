@@ -905,7 +905,12 @@ button[type="submit"]:hover {
   }
 
   .map iframe {
-    width: 270px;
+    width: 80vw;
+  }
+
+  .map {
+    width: 70vw;
+    margin-right: 40px;
   }
 
   .action-shot {
